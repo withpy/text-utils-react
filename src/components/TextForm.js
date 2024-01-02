@@ -51,16 +51,16 @@ export default function TextForm(props) {
         placeholder="Enter Your Text"
       ></textarea>
   </div>
-    <button className="btn btn-secondary mx-2" onClick={handelUC}>
+    <button className="btn btn-secondary mx-2 my-2" onClick={handelUC}>
       Convert to Uppercase
     </button>
-    <button className="btn btn-secondary mx-2" onClick={handelLC}>
+    <button className="btn btn-secondary mx-2  my-2" onClick={handelLC}>
     Convert to Lowercase
     </button>
-    <button className="btn btn-secondary mx-2" onClick={handelcopy}>
+    <button className="btn btn-secondary mx-2  my-2" onClick={handelcopy}>
     Copy Text
     </button>
-    <button className="btn btn-secondary mx-2" onClick={handelclear}>
+    <button className="btn btn-secondary mx-2  my-2" onClick={handelclear}>
     Clear
     </button>
     <div className="container my-3">
