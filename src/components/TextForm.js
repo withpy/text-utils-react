@@ -30,7 +30,7 @@ export default function TextForm(props) {
     if (text.trim()===""){
       return 0;
     }
-    return text.trim().split(" ").length;
+    return text.trim().split(/\s+/).length;
   }
   
   // const [text, setText] = useState('Enter Your Text');
